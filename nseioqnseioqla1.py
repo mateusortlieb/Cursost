@@ -12,6 +12,7 @@ with col2:
   sex = st.select_slider("Qual seu sexo",
                          options = [
                            "Homem",
+                           "mameus",
                            "Femboy",
                            "Mulher"
                          ] )
