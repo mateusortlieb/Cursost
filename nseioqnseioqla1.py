@@ -9,5 +9,9 @@ with col1:
 with col2:
   st.text_input("Nome:")
   st.date_input("Insira sua data de nascimento:")
-  masc = st.slider("Quanto % masculino?", feminino, masculino)
-  fem = st.slider("Quanto % feminino?", 0, 100)
+  sex = st.select_slider("Qual seu sexo",
+                         options = [
+                           "Homem",
+                           "Femboy",
+                           "Mulher"
+                         ] )
