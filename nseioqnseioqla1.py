@@ -9,4 +9,4 @@ with col1:
 with col2:
   st.text_input("Nome:")
   st.date_input("Insira sua data de nascimento:")
-  st.slider("Qual seu sexo?" masculino, femboy ,feminino)
+  sex = st.slider("Qual seu sexo?", masculino, feminino)
